@@ -1,0 +1,9 @@
+{
+  "name": "Chii-bot",
+  "version": "0.0.0",
+  "description": "",
+  "dependencies": {
+    "discordie": "*",
+    "sqlite3": "*"
+  }
+}
