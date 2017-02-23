@@ -9,8 +9,8 @@ function chatbot(client) {
 		
 		if (isChii(e.message)) {
 
-			console.log(e.message);
 			if (e.message.author.id == options.Idowner) {
+
 			}
 
 			if (e.message.content.indexOf("ping") >= 0){
@@ -20,7 +20,7 @@ function chatbot(client) {
 	});
 }
 
-session("sql");
+//session("sql");
 
 function isChii(e) {
 	var callb = e.content.substring(0, 9).toUpperCase();

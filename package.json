@@ -1,9 +1,12 @@
 {
   "name": "Chii-bot",
   "version": "0.0.0",
+  "main": "bot.js",
   "description": "",
+  "scripts": {
+  	"start" : "node bot.js"
+  },
   "dependencies": {
-    "discordie": "*",
-    "sqlite3": "*"
+    "eris": "*"
   }
 }
